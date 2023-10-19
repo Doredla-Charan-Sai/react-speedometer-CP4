@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.bg-cont {
+  background-color: black;
+  background-size: cover;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-head {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+}
+.img {
+  width: 80%;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: white;
+  text-align: center;
+}
+.speed-head {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+.accelerate {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  border-style: none;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 13px;
+  color: white;
+  height: 25px;
+  width: 120px;
+  margin-right: 30px;
+}
+
+.break {
+  background-color: transparent;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 13px;
+  color: white;
+  height: 25px;
+  width: 120px;
+}
